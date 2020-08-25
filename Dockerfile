@@ -43,7 +43,7 @@ RUN  apk --no-cache add \
                         linux-headers         && \
      ln -s /usr/bin/python3 /usr/bin/python   && \
      ln -s /usr/bin/pip3    /usr/bin/pip      && \
-     git clone -b manyuser https://github.com/yangyzp/uim-docker.git "/root/shadowsocks" --depth 1 && \
+     git clone -b master https://github.com/yangyzp/uim-docker2.git "/root/shadowsocks" --depth 1 && \
      cd  /root/shadowsocks                    && \
      pip install --upgrade pip                && \
      pip install -r requirements.txt          && \
